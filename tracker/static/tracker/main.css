@@ -1,0 +1,46 @@
+@font-face {
+    font-family: HeaderFont;
+    src: url(font/PT_Mono/PTMono-Regular.ttf);
+  }
+
+*{
+    /* background-color: black; */
+}
+
+body{
+	background: linear-gradient(to right, #000000, #000000 70%);
+}
+
+#header{
+    font-family: HeaderFont;
+	background: linear-gradient(#40E0D0, #FF8C00 ,#FF0080 );
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+  background-repeat: repeat;
+  
+    
+}
+
+/*GRID*/
+.grid-container {
+  text-align:center;
+  display: inline-grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 15px;
+
+}
+
+.box{
+    background: linear-gradient(#40E0D0, #FF8C00 ,#FF0080 );
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    height: 150px; 
+    width: 150px;
+    border: solid;
+    border-radius: 20%;
+    
+}
