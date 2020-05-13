@@ -24,56 +24,78 @@ body{
     
 }
 
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 300%;
+
+}
+
+
 /*GRID*/
 .grid-container {
   padding-left: 18%;
-
   display: inline-grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 25px;
 
 }
 
+
 .box{
+    position: relative;
+
     font-family: HeaderFont;
-    /* background: linear-gradient(#40E0D0, #FF8C00 ,#FF0080 ); */
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
     height: 150px; 
     width: 150px;
-    background-color: white;
+    background-color: black;
     border: solid;
     border-radius: 20%;
 }
-
 
 .box-1:hover{
     border: 5px solid;
     border-image-source: linear-gradient(45deg,  #B3FFAB, #12FFF7);
     border-image-slice: 1;
+    background: linear-gradient(45deg,  #B3FFAB, #12FFF7);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-2:hover {
     border: 5px solid;
     border-image-source: linear-gradient(45deg,  #00c3ff, #ffff1c);
     border-image-slice: 1;
+    background: linear-gradient(45deg,  #00c3ff, #ffff1c);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-3:hover {
     border: 5px solid;
     border-image-source: linear-gradient(45deg, #FDC830, #F37335);
     border-image-slice: 1;
+    background: linear-gradient(45deg,  #FDC830, #F37335);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .box-4:hover{
     border: 5px solid;
     border-image-source: linear-gradient(45deg, #F37335,#E94057, #8A2387);
     border-image-slice: 1;
+    background: linear-gradient(45deg, #F37335,#E94057, #8A2387);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-5:hover{
     border: 5px solid;
     border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    background: linear-gradient(45deg, red, yellow, lime, aqua, blue, magenta, red);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
