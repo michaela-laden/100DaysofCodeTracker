@@ -6,4 +6,7 @@ from .models import Log
 
 
 def home(request):
+    return render(request, 'tracker/home.html')
+
+def tracker(request):
     return render(request, 'tracker/index.html')
