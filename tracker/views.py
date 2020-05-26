@@ -10,3 +10,6 @@ def home(request):
 
 def tracker(request):
     return render(request, 'tracker/index.html')
+
+def ideas(request):
+    return render(request, 'tracker/ideas.html')

@@ -166,13 +166,13 @@ body {
 }
 
 
-.popup-button1 {
+.popup-button1, .popup-button2 {
     display: inline-block;
     font-family: HeaderFont;
     text-align: center;
     text-decoration: none;
     font-weight: 800;
-    font-size: 0.8em;
+    
     text-transform: uppercase;
     color: white;
     
@@ -190,9 +190,14 @@ body {
 
   .popup-button1{
     background-image: linear-gradient(to right, #1f4037 0%, #99f2c8 50%, #1f4037 100%);
+    font-size: 0.8em;
+  }
+  .popup-button2{
+    background-image: linear-gradient(to right, #2c3e50 0%, #bdc3c7 50%, #2c3e50 100%);
+    font-size: 1.0em;
   }
 
-  .popup-button1:hover{
+  .popup-button1:hover, .popup-button2:hover{
     background-position: right center;
     color: white;
   }
