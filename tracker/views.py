@@ -11,5 +11,9 @@ def home(request):
 def tracker(request):
     return render(request, 'tracker/index.html')
 
+def stats(request):
+    return render(request, 'tracker/stats.html')
+
 def ideas(request):
     return render(request, 'tracker/ideas.html')
+

@@ -26,19 +26,21 @@ body{
 /*GRID*/
 
 .grid{
+    display: block;
+    position: absolute;
     -webkit-display: box;
     -moz-display: box;
     -ms-display: flexbox;
     display: flex;
     flex-wrap: wrap;
- 
+
     padding:5px;
     border-radius: 10px;
     padding-left: 18%;
+    top: 27%;
     display: inline-grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-gap: 25px;
-  
+    grid-gap: 25px;  
 
 }
 
