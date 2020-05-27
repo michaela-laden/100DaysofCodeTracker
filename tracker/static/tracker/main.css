@@ -71,9 +71,11 @@ body{
 
 .box-2:hover {
     border: 5px solid;
-    border-image-source: linear-gradient(45deg,  #00c3ff, #ffff1c);
+    border-image-source: linear-gradient(45deg,  #F1A7F1, #FAD0C4
+    );
     border-image-slice: 1;
-    background: linear-gradient(45deg,  #00c3ff, #ffff1c);
+    background: linear-gradient(45deg,  #F1A7F1, #FAD0C4
+    );
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -90,9 +92,9 @@ body{
 
 .box-4:hover{
     border: 5px solid;
-    border-image-source: linear-gradient(45deg, #F37335,#E94057, #8A2387);
+    border-image-source: linear-gradient(45deg, #FB7BA2,#E94057, #8A2387);
     border-image-slice: 1;
-    background: linear-gradient(45deg, #F37335,#E94057, #8A2387);
+    background: linear-gradient(45deg, #FB7BA2,#E94057, #8A2387);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -202,4 +204,41 @@ body {
   .popup-button1:hover, .popup-button2:hover{
     background-position: right center;
     color: white;
+  }
+
+  .article-title {
+    color: #ffffff;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+    color: white;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
   }
