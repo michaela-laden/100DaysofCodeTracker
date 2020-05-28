@@ -4,9 +4,51 @@
 <svg viewBox="0 0 1280 720">
   <text text-anchor="left" x="5%" y="15%">ideas.</text>
 </svg> 
+
+<div style="display: block; position: absolute; top:25%; left:7%; color:white;" class="col-md-8">
+    Write down any of your ideas for what you want to create during this challenge!
+    <br>Don't let your ideas go to waste!
+  <button id="myBtn">🧠 </button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <ol>
+        <li>Use Javascript to create a tik tak toe game</li>
+        <li>Try making something really cool with pure CSS</li>
+        <li>Follow a course on FreeCodeCamp! It's a great resource</li>
+        <li>Redesign a famous or popular website</li>
+      </ol>
+    </div>
+
+
+  <script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+  </div>
+   Click the brain emoji for some starter ideas :). <br><br>
+   <a href="#" class="popup-button3" style="text-decoration: none;">+ Add Idea</a></p>
+  </div>
 <main role="main" class="container">
   <div class="row">
-    <div style="display: block; position: absolute; top:35%;" class="col-md-8">
+    <div style="display: block; position: absolute; top:40%; left:10%;" class="col-md-4">
       {% for post in posts %}
       <article class="media content-section">
         <div class="media-body">
